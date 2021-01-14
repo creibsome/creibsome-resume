@@ -1,9 +1,21 @@
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div id="container">
+    <ion-card *ngFor="let card of config.cards;">
+      <ion-card-header>
+        <ion-card-title>{{card.title}}</ion-card-title>
+        <ion-card-subtitle>
+          {{card.company}} 
+          <br />
+          ({{card.startDate | date:'MMM yyyy'}} - {{card.endDate == null ? 'Present' : (card.endDate | date:'MMM yyyy')}})
+        </ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+        <ul>
+          <li *ngFor="let item of card.bullets;">{{item}}</li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>

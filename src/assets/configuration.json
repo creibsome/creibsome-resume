@@ -1,0 +1,55 @@
+{
+    "name": "Cody Reibsome",
+    "titles": [
+        "Full-Stack Software Engineer",
+        "Technical Lead"
+    ],
+    "aboutContent": [
+        "Hi! I am a remote senior full-stack web application developer who is always looking to expand my skill set and innovate with new technologies.",
+        "I started my development career in 2014 and have been building web based applications to support the Department of Defense (DoD) and Defense Health Agency (DHA) ever since. I've been working as a remote developer since 2016 and am a huge advocate for a remote workforce - it provides teams with increased flexibility and reduces the rate of burnout.",
+        "In my current role, I am leading multiple small development teams and building solutions in .NET 4.5 (WCF), jQuery, Angular, SQL Server, and Oracle."
+    ],
+    "cards": [
+        {
+            "company": "Spin Systems",
+            "location": "Remote",
+            "title": "Technical Delivery Lead",
+            "startDate": "2016-04-07T00:00:00.000Z",
+            "bullets": [
+                "Leveraged a full stack consisting of SQL Server, C#, WCF, Kendo UI, and jQuery to develop and support web applications hosted in a SharePoint environment.",
+                "Developed a web application to compound, analyze, and graphically display real-time usage analytics for all solutions hosted in our environment.",
+                "Led multiple development teams, working closely with stakeholders and QA in an agile environment to assess requirements, develop solutions, and refine products based on user feedback.",
+                "Led a small team to develop a COVID-19 self survey PWA to provide guidance on when to stay home from work.",
+                "Active Secret Clearance."
+            ]
+        },
+        {
+            "company": "CACI - Federal",
+            "location": "Dahlgren, VA",
+            "title": "Systems Programmer II",
+            "startDate": "2014-03-01T00:00:00.000Z",
+            "endDate": "2016-04-06T00:00:00.000Z",
+            "bullets": [
+                "Developed on a full stack using Oracle, Java, Struts, JSTL, and jQuery to create and maintain a talent management web application.",
+                "Pair-programmed to overhaul legacy JavaScript code to be clean, efficient, and support browsers from IE7 to Chrome.",
+                "Helped lead an effort to adopt modern development methodologies such as pair-programming, using Scrum boards, and conducting code reviews.",
+                "Created agent plugins used to test an agent-based modeling and simulation framework."
+            ]
+        },
+        {
+            "company": "University of Mary Washington",
+            "location": "Fredericksburg, VA",
+            "title": "B.S. Computer Science",
+            "startDate": "2011-08-01T00:00:00.000Z",
+            "endDate": "2014-12-01T00:00:00.000Z",
+            "bullets": [
+                "Minor in Applied Mathematics",
+                "GPA: 3.76",
+                "Collaborated with data scientists in Dahlgren, VA to retrieve, parse, and analyze data from Twitter's REST API using R."
+            ]
+        }
+    ],
+    "email": "reibsomecody@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/cody-reibsome",
+    "github": "https://github.com/creibsome"
+}

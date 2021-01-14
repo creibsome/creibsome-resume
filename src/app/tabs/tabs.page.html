@@ -1,14 +1,11 @@
-<ion-toolbar>
-  <ion-title>Cody Reibsome</ion-title>
-  <ion-buttons slot="end">
-    <ion-button *ngIf="darkMode" (click)="toggleTheme()">
-      <ion-icon slot="icon-only" name="moon"></ion-icon>
-    </ion-button>
-    <ion-button *ngIf="!darkMode" (click)="toggleTheme()">
-      <ion-icon slot="icon-only" name="sunny"></ion-icon>
-    </ion-button>
-  </ion-buttons>
-</ion-toolbar>
+<ion-fab vertical="top" horizontal="end" slot="fixed">
+  <ion-fab-button *ngIf="darkMode" (click)="toggleTheme()">
+    <ion-icon name="moon"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-button *ngIf="!darkMode" (click)="toggleTheme()">
+    <ion-icon name="sunny"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
 <ion-tabs>
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="about">
@@ -26,5 +23,4 @@
       <ion-label>Contact</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
-
 </ion-tabs>

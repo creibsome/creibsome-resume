@@ -7,6 +7,7 @@ import { ContactPage } from './contact.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { ContactPageRoutingModule } from './contact-routing.module';
+import { ConfigurationService } from '../services/configuration-service';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { ContactPageRoutingModule } from './contact-routing.module';
     RouterModule.forChild([{ path: '', component: ContactPage }]),
     ContactPageRoutingModule,
   ],
-  declarations: [ContactPage]
+  declarations: [ContactPage],
+  providers: [ConfigurationService]
 })
 export class ContactPageModule {}

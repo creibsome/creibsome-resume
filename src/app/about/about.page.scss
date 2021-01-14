@@ -1,0 +1,26 @@
+#container {
+    max-width: 80%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 1.75em;
+        margin-bottom: 0;
+    }
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--ion-color-step-700);
+    }
+}
+
+#banner {
+    background-image: url(/assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 275px;
+    width: 275px;
+    margin: 16px auto 0 auto;
+    border-radius: 50%;
+    background-color: var(--ion-color-step-250);
+}
