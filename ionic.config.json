@@ -1,0 +1,8 @@
+{
+  "name": "creibsome-resume",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "099c75f1"
+}
