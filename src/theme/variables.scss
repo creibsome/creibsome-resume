@@ -233,36 +233,6 @@
   --ion-color-step-50: #f3f3f3;
 }
 
-@media (prefers-color-scheme: dark) {
-  /*
-   * Dark Colors
-   * -------------------------------------------
-   */
-
-  body {
-    @include dark;
-  }
-
-  /*
-   * iOS Dark Theme
-   * -------------------------------------------
-   */
-
-  .ios body {
-    @include ios-dark;
-  }
-
-
-  /*
-   * Material Design Dark Theme
-   * -------------------------------------------
-   */
-
-  .md body {
-    @include md-dark;
-  }
-}
-
 body.dark {
   @include dark;
 }

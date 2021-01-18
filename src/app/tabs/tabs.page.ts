@@ -10,7 +10,11 @@ export class TabsPage {
 
   constructor() {
     let themeSettings = localStorage.getItem("ThemeSettings");
-    this.darkMode = themeSettings != null && themeSettings === 'dark';
+    if (themeSettings) {
+      this.darkMode = themeSettings === 'dark';
+    } else {
+      this.darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    }
     this.applyTheme();
   }
 
